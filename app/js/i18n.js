@@ -6,10 +6,12 @@ angular.module('myApp.i18n', ['izhukov.utils'])
     var messages = {};
     var fallbackMessages = {};
     var supported = {
+      'de-de': 'Deutsch',
       'en-us': 'English'
     };
     var aliases = {
-      'en': 'en-us'
+      'en': 'en-us',
+      'de': 'de-de'
     };
     var paramRegEx = /\{\s*([a-zA-Z\d\--]+)(?:\s*:\s*(.*?))?\s*\}/g;
 
